@@ -1,0 +1,31 @@
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, #00ccff, #33ccff, #0099cc);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 500px;
+    height: 550px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: darkgreen;
+    transform: scale(1, 1);
+}

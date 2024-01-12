@@ -1,0 +1,27 @@
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, #00ccff, #33ccff, #0099cc);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 500px;
+    height: 550px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+p {
+    font-size: 3em;
+}
+
+.controls {
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
