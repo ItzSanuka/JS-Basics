@@ -2,7 +2,7 @@
 let number = 0;
 
 //gets the elements
-let count = document.getElementById('count');
+const count = document.getElementById('count');
 
 const decrease = document.getElementById('decrease');
 const increase = document.getElementById('increase');
@@ -20,6 +20,6 @@ increase.onclick = () => {
 };
 
 reset.onclick = () => {
-    number = 0
+    number = 0;
     count.textContent = number;
 };
